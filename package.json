@@ -1,0 +1,33 @@
+{
+  "source": "src/index.html",
+  "targets": {
+    "default": {
+      "publicUrl": "./"
+    }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "prettier": {
+    "semi": false
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "parcel": "^2.12.0",
+    "prettier": "3.2.5",
+    "process": "^0.11.10",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/themes": "^3.0.3",
+    "idb-keyval": "^6.2.1",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
